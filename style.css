@@ -1,0 +1,57 @@
+h1{
+    color:goldenrod;
+
+}
+body{
+    text-align: center;
+        text-transform:uppercase;
+        background:#1a1a1a;
+        color:white;
+}
+#gameArea{
+    text-transform:uppercase;
+    height:400px;
+    margin:20px,auto;
+    border-radius:10px;
+    background:#333;
+    position:relative;
+    width:400px;
+
+}
+.box{
+    width:80px;
+    height:80px;
+    background:blue;
+    position:absolute;
+    cursor:pointer;
+
+}
+button{
+padding:10px 20px;
+font-size:16 px;
+background-color: rgb(127, 236, 24);
+
+}
+@media screen and (max-width:600px){
+
+    .game{
+        width:90%;
+        margin: 20px auto;
+    }
+    
+    h1{
+        font-size:1.4rem;
+    }
+    button
+    {
+        width:100%;
+        font-size:1.1rem;
+        
+    }
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
