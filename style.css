@@ -1,3 +1,5 @@
+
+
 h1{
     color:goldenrod;
 
@@ -24,34 +26,12 @@ body{
     background:blue;
     position:absolute;
     cursor:pointer;
-
+align-items:center;
 }
 button{
 padding:10px 20px;
 font-size:16 px;
 background-color: rgb(127, 236, 24);
 
-}
-@media screen and (max-width:600px){
-
-    .game{
-        width:90%;
-        margin: 20px auto;
-    }
-    
-    h1{
-        font-size:1.4rem;
-    }
-    button
-    {
-        width:100%;
-        font-size:1.1rem;
-        
-    }
-    body{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
