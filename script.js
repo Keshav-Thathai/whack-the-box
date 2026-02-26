@@ -6,8 +6,8 @@ box.className = "box";
 document.getElementById("gameArea").appendChild(box);
 
 function moveBox() {
-  let x = Math.random() * 300;
-  let y = Math.random() * 300;
+  let x = Math.random() * 250;
+  let y = Math.random() * 250;
   box.style.left = x + "px";
   box.style.top = y + "px";
 }
@@ -35,4 +35,5 @@ function startGame() {
     }
   }, 1000);
 }
+
 
